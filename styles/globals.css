@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  padding-bottom: 250px;
+  overflow-x: hidden;
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-cursor-32x32.png),
+    default !important;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+:root {
+  background: linear-gradient(-45deg, #4929fa, #3ca3e7, #23d5c6, #24f783);
+  --white: #ffffff;
+  --tw-color1: #a855f7;
+  --tw-color1-hover: #9333ea;
+}
+
+body {
+  background: var(--background-color);
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  display: flex;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+img {
+  border-radius: 28%;
+}
+
+.swal-button {
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-pointer-32x32.png),
+    pointer !important;
+}
+
+.btn {
+  flex: 1 1 auto;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  width: 160px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(7, 6, 6);
+  box-shadow: 0 0 20px rgb(34, 34, 34);
+  border-radius: 10px;
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-pointer-32x32.png),
+    pointer !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.btn:hover {
+  background-position: right center;
+  color: rgb(4, 252, 16);
+  background-color: #f6f5f7;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0rem;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.footer1 {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  color: rgb(5, 216, 16);
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-pointer-32x32.png),
+    pointer !important;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-pointer-32x32.png),
+    pointer !important;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.sec {
+  height: 120px;
+  width: 100%;
+  overflow-x: 0px;
+}
+
+.wallet-adapter-button.wallet-adapter-button-trigger {
+  color: rgb(5, 5, 5);
+  background-color: #fa09e6;
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-pointer-32x32.png),
+    pointer !important;
+  font-size: 25px;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(7, 6, 6);
+  box-shadow: 0 0 20px rgb(34, 34, 34);
+  border-radius: 10px;
+}
+
+.wallet-adapter-button-trigger:hover {
+  color: rgb(4, 252, 16);
+  background-color: #f6f5f7;
+}
+
+.wallet-adapter-modal-button-close {
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-pointer-32x32.png),
+    pointer !important;
+}
+
+.wallet-adapter-button {
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-pointer-32x32.png),
+    pointer !important;
+}
+
+img {
+  border-radius: 15%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.Home_iconContainer1 {
+  margin-bottom: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.nbtn {
+  flex: 1 1 auto;
+  font-size: 25px;
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+  text-align: center;
+  background-size: 200% auto;
+  color: rgb(5, 5, 5);
+  box-shadow: 0 0 20px rgb(255, 0, 0);
+  border-radius: 10px;
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-cursor-32x32.png),
+    pointer !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.nbtn,
+.nbtn2 {
+  flex: 1 1 auto;
+  font-size: 28px;
+  margin: 10px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+  color: rgb(5, 5, 5);
+  box-shadow: 0 0 20px rgb(2, 250, 35);
+  border-radius: 50px;
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-cursor-32x32.png),
+    pointer !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: rgba(5, 5, 5, 0.9);
+  background: linear-gradient(
+    -85deg,
+    rgb(255, 51, 51),
+    white,
+    rgb(255, 51, 51),
+    white
+  );
+  background-size: 600%;
+  -webkit-animation: anime 8s linear infinite;
+  animation: anime 8s linear infinite;
+}
+.nbtn2 {
+  position: absolute;
+  margin-top: -70px;
+  z-index: -1;
+  filter: blur(30px);
+  opacity: 0.8;
+}
+.nbtn:hover,
+.nbtn2:hover {
+  color: rgb(4, 252, 16);
+  background-color: #f6f5f7;
+}
+
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.h41 {
+  margin-bottom: 20px;
+  color: rgb(4, 252, 16);
+}

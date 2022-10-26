@@ -1,0 +1,65 @@
+.container {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 0 24px;
+}
+
+.h1 {
+  margin-bottom: 0px;
+}
+
+.input {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.lightPurple {
+  color: #e011a7;
+}
+
+.button {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin: 20px;
+  transition: 0.5s;
+  background-color: #fc05be;
+  color: rgb(7, 7, 7);
+  cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/cyberpunk/cyberpunk-pointer-32x32.png), pointer!important;
+}
+
+.button:hover {
+  color: rgb(11, 253, 2);
+  background-color: #292b29;
+}
+
+.container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 0 24px;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
