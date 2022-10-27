@@ -1,6 +1,11 @@
 # NFT Gated Website Solana
 
-This project demonstrates how you can restrict content on your website to only those users who own an NFT from your collection.
+https://user-images.githubusercontent.com/106103625/198161903-1105d941-180e-4054-86b1-40baa7fe4969.mp4
+
+This project demonstrates how you can r
+
+
+estrict content on your website to only those users who own an NFT from your collection.
 
 We use an [NFT Drop](https://portal.thirdweb.com/pre-built-contracts/solana/nft-drop) contract to enable users to claim one of the NFTs, and serve users the restricted content if they have at least one of the NFTs claimed.
 
